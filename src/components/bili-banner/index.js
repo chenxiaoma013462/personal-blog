@@ -42,13 +42,6 @@ const dynamicBanner = () => {
           'px); opacity:' +
           element_data.opacity +
           ';'
-        // 第二种方式:模板字符串
-        // element.children[0].style = `transform: scale(1)
-        //                              translate( ${element_data.translateX}px, ${element_data.translateY}px )
-        //                              rotate(0deg);
-        //                              filter: blur(${element_data.filter_blur});
-        //                              opcatity: ${element_data.opacity};
-        //                              `
       }
     }
   }
